@@ -1,0 +1,116 @@
+/* ========================================================================
+   IMS566 INDIVIDUAL ASSIGNMENT - STYLE.CSS (RESPONSIVE)
+   Student Name: Nurul Haffizah binti Abdul Rasid (2025422608)
+   Project Theme: Personal Study Task Manager 
+========================================================================
+*/
+
+/* 1. Global Setup */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F0FFD8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 2. Custom Responsive Grid Modifications */
+.timetable-day-col {
+    background-color: #ffe4ef;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #b1cce7;
+    min-height: 200px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timetable-day-col:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* 3. Class schedule item blocks */
+.relative-slot {
+    border-left: 4px solid #8ab6f7 !important;
+    background-color: #3e1021;
+    border: 1px solid #470e1f;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.relative-slot:hover {
+    background-color: #f39eb6 !important;
+}
+
+.truncate-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 4. Highlight styles for currently active menu tab */
+.nav-link.active-tab {
+    background-color: rgba(247, 246, 211, 1) !important;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #171414 !important;
+}
+
+/* 5. Custom Card styling adjustments */
+.card {
+    border-radius: 12px;
+    border: 1px solid rgba(242, 123, 123, 0.068);
+}
+
+.hover-red:hover {
+    color: #dc3545 !important;
+}
+
+/* ========================================================================
+   6. LANDING PAGE SPECIFIC STYLES
+======================================================================== */
+.landing-body {
+    background-color: #F0FFD8 !important; /* Memaksa warna Matcha Cream khas untuk landing page */
+}
+
+.hero-title {
+    font-size: calc(1.8rem + 1.5vw);
+    font-weight: 800;
+    color: #2c3e50;
+    line-height: 1.2;
+}
+
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+.btn-get-started {
+    background-color: #A8DF8E; /* Matcha Green */
+    color: #2c3e50;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.btn-get-started:hover {
+    background-color: #97cc7f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(168, 223, 142, 0.4);
+    color: #2c3e50;
+}
+
+.logo-card {
+    background-color: #FDF0F0; /* Soft Sakura Pink */
+    border: 2px solid #FAAAB8; /* Blush Pink */
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 320px;
+}
