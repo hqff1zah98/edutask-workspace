@@ -18,8 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // dummy data
     if (!localStorage.getItem(`${currentUser}_subjects`)) {
         const dummySubjects = [
-            { code: "IMS566", name: "Advanced Web Design" },
-            { code: "IMS552", name: "Information Systems" }
+            { code: "IMS566", name: "Advanced Web Design Development and Content Management" },
+            { code: "IMS565", name: "Information Systems Project Management" }
+            { code: "IMS560", name: "Advanced Database Management" }
         ];
         localStorage.setItem(`${currentUser}_subjects`, JSON.stringify(dummySubjects));
     }
