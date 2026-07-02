@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!localStorage.getItem(`${currentUser}_tasks`)) {
         const dummyTasks = [
             { name: "Individual Assignment 1", subject: "IMS566", hours: 5, status: "Pending" },
-            { name: "Group Project Proposal", subject: "IMS552", hours: 3, status: "Completed" }
+            { name: "Group Project Proposal", subject: "IMS565", hours: 3, status: "Completed" }
+            { name: "Group Project Php", subject: "IMS560", hours: 3, status: "Pending" }
         ];
         localStorage.setItem(`${currentUser}_tasks`, JSON.stringify(dummyTasks));
     }
