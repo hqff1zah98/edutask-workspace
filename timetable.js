@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!localStorage.getItem(`${currentUser}_timetable`)) {
         const dummyTimetable = [
             { id: 1, subject: "IMS566", day: "Monday", start: "08:00", end: "10:00", room: "Computer Lab 1" },
-            { id: 2, subject: "IMS552", day: "Wednesday", start: "14:00", end: "16:00", room: "DK 200" }
+            { id: 2, subject: "IMS565", day: "Wednesday", start: "14:00", end: "16:00", room: "DK 200" }
+            { id: 3, subject: "IMS560", day: "Friday", start: "10:00", end: "12:00", room: "Computer Lab 8" }
         ];
         localStorage.setItem(`${currentUser}_timetable`, JSON.stringify(dummyTimetable));
     }
