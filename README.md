@@ -1,6 +1,6 @@
 **EduTask Workspace - Personal Study Task Manager**
 
-Welcome to the **EduTask Workspace** repository! This is an interactive web application developed to fulfill the individual assignment requirements for the course **IMS566 (Advanced Web Design)**. The system is designed to help students systematically manage academic tasks, course registrations, and weekly lecture schedules within a single, highly responsive user interface.
+Welcome to the **EduTask Workspace** repository! This is an interactive web application developed to fulfill the individual assignment requirements for the course **IMS566 (Advanced Web Design Development and Content Management)**. The system is designed to help students systematically manage academic tasks, course registrations, and weekly lecture schedules within a single, highly responsive user interface.
 
 ---
 
