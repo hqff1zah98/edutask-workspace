@@ -72,7 +72,7 @@ body {
    6. LANDING PAGE SPECIFIC STYLES
 ======================================================================== */
 .landing-body {
-    background-color: #F0FFD8 !important; /* Memaksa warna Matcha Cream khas untuk landing page */
+    background-color: #F0FFD8 !important; 
 }
 
 .hero-title {
@@ -89,7 +89,7 @@ body {
 }
 
 .btn-get-started {
-    background-color: #A8DF8E; /* Matcha Green */
+    background-color: #A8DF8E; 
     color: #2c3e50;
     font-weight: 700;
     padding: 12px 32px;
@@ -106,8 +106,8 @@ body {
 }
 
 .logo-card {
-    background-color: #FDF0F0; /* Soft Sakura Pink */
-    border: 2px solid #FAAAB8; /* Blush Pink */
+    background-color: #FDF0F0; 
+    border: 2px solid #FAAAB8; 
     border-radius: 24px;
     padding: 30px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.05);
