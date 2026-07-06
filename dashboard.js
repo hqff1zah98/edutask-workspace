@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     // -------------------------------------------------------
 
-    // 2. Load stored datasets mengikut akaun pengguna
+    // 2. Load stored datasets based on user account
     tasksArray = JSON.parse(localStorage.getItem(`${currentUser}_tasks`)) || [];
     subjectsArray = JSON.parse(localStorage.getItem(`${currentUser}_subjects`)) || [];
     
