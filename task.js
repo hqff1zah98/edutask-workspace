@@ -82,7 +82,7 @@ window.handleAddTask = function(event) {
     }
 
     tasksArray.push({ name, subject, hours, status });
-    localStorage.setItem(`${currentUser}_tasks`, JSON.stringify(tasksArray)); // Simpan ikut user
+    localStorage.setItem(`${currentUser}_tasks`, JSON.stringify(tasksArray)); 
     
     showNotification("New assignment task logged!");
     document.getElementById('taskForm').reset();
