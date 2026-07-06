@@ -55,7 +55,7 @@ window.handleAddSubject = function(event) {
     }
     
     subjectsArray.push({ code, name });
-    localStorage.setItem(`${currentUser}_subjects`, JSON.stringify(subjectsArray)); // Simpan ikut user
+    localStorage.setItem(`${currentUser}_subjects`, JSON.stringify(subjectsArray));
     
     showNotification("Subject code added!");
     document.getElementById('subjectForm').reset();
@@ -67,7 +67,7 @@ window.handleDeleteSubject = function(index) {
     const verified = confirm(`Are you sure you want to delete subject: "${code}"?`);
     if (verified) {
         subjectsArray.splice(index, 1);
-        localStorage.setItem(`${currentUser}_subjects`, JSON.stringify(subjectsArray)); // Simpan ikut user
+        localStorage.setItem(`${currentUser}_subjects`, JSON.stringify(subjectsArray));
         showNotification("Subject record removed.");
         renderSubjectsView();
     }
